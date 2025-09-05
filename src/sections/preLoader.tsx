@@ -14,7 +14,6 @@ function PreLoader({ onFinish }: PreLoaderProps) {
     "Hi Sayang.",
     "Hi My Lovely.",
     "Hi My Princess.",
-    "Ni Hao Fine Shyt.",
     "Hi Love.",
   ];
   const [index, setIndex] = useState(0)
