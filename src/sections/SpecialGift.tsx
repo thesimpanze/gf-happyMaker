@@ -40,6 +40,7 @@ const SpecialGift = () => {
             spread={120}
             direction="left"
             yoyo={false}
+            pauseOnHover={false}
           />
         </h1>
         <h1 className=" mt-3 italic">
