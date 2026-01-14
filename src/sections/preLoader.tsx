@@ -55,7 +55,7 @@ function PreLoader({ onFinish }: PreLoaderProps) {
   return (
     <div
       ref={container}
-      className="bg-white fixed top-0 left-0 w-full h-screen flex justify-center items-center"
+      className="bg-primary fixed top-0 left-0 w-full h-screen flex justify-center items-center z-50 font-grotesk"
     >
       <AnimatePresence mode="wait">
         {!done && (
@@ -65,7 +65,7 @@ function PreLoader({ onFinish }: PreLoaderProps) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.1 }}
-            className="absolute text-black text-2xl font-semibold tracking-wide"
+            className="absolute text-white text-2xl font-semibold tracking-wide"
           >
             {word[index]}
           </motion.span>
