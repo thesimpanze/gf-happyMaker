@@ -9,10 +9,6 @@ const Wishes = () => {
     target: ref,
     offset: ["center end", "end end"],
   });
-  const { scrollXProgress } = useScroll({
-    target: ref,
-    offset: ["center end", "end end"],
-  });
 
   const y = useTransform(scrollYProgress, [0, 0.4, 1], ["0%", "0%", "-35vh"]);
   const x = useTransform(scrollYProgress, [0, 0.4, 1], ["0%", "0%", "-33vw"]);
